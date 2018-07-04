@@ -27,6 +27,7 @@ match key:           EXACT-00:00
 action:              MyIngress.portfwd
 runtime data:        00:01
 Entry has been added with handle 0
+
 RuntimeCmd: table_add MyIngress.port_exact MyIngress.portfwd 1 => 0
 Adding entry to exact match table MyIngress.port_exact
 match key:           EXACT-00:01

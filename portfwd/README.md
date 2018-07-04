@@ -3,6 +3,7 @@ This simple application has only one exact match table, matching on the incoming
 
 ## How to use (example)
 ### compile
+Assuming you want to compile to bmv2 software switch
 `$ sudo p4c-bm2-ss portfwd.p4 -o portfwd.json`
 
 ### run
